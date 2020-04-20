@@ -13,9 +13,9 @@ max = gg.read()
 from os import system as aa
 aa("clear")
 test = """
-a = "1"
-b = "1"
-print (a + b)
+aa = "max"
+print (aa)
+print (aa)
 
 
 
@@ -24,8 +24,10 @@ print (a + b)
 print (cyan,test)
 print (g)
 all = input("-------->")
+all2 = input("-------->")
+
 gg.close()
-if all == "11":
+if all == "max"and all2 == "max":
    
    print (p,"good ",g,"Level +1")
    
