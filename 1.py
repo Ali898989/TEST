@@ -10,7 +10,6 @@ reset='\033[0m'
 y='\033[1;33m'
 gg = open("/data/data/com.termux/files/home/level.txt","r")
 max = gg.read()
-new = int(max)+1
 from os import system as aa
 aa("clear")
 test = """
@@ -27,13 +26,13 @@ all = input("-------->")
 
 if all == "ali_max":
    print (p,"good ",g,"Level +1")
-   new = (int(max)+1)
+   new = int(max)+1
    gg2 = open("/data/data/com.termux/files/home/level.txt","w")
    gg2.write(new)
    aa("TEST")
 else :
    print (p,"error ",r,"Level -1")
-   new2 = (int(max)-1)
+   new2 = int(max)-1
    gg2 = open("/data/data/com.termux/files/home/level.txt","w")
    gg2.write(new2)
    aa("TEST")
