@@ -1,0 +1,31 @@
+g='\033[1;32m'
+p='\033[1;35m'
+cyan='\033[1;36m'
+green='\033[1;32m'
+r='\033[1;31m'
+yellow='\033[1;33m'
+blue='\033[1;34m'
+purple='\033[1;35m'
+reset='\033[0m'
+y='\033[1;33m'
+
+from os import system as aa
+aa("clear")
+test = """
+a = "ali_max"
+print (a)
+
+
+
+
+"""
+print (cyan,test)
+
+all = input("-------->")
+
+if all == "ali_max":
+   print (p,"good ",g,"Level +1")
+   aa("TEST")
+else :
+   print (p,"error ",r,"Level -1")
+   aa("TEST")
