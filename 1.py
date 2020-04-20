@@ -27,8 +27,11 @@ gg.close()
 if all == "ali_max":
    print (p,"good ",g,"Level +1")
    new = (int(max)+1)
+   new1 = str(new) 
    gg2 = open("/data/data/com.termux/files/home/level.txt","w")
-   gg2.write(new)
+   
+   gg2.write(new1)
+   
    gg2.close()
    aa("TEST")
 else :
