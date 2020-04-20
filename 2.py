@@ -13,14 +13,20 @@ max = gg.read()
 from os import system as aa
 aa("clear")
 test = """
-a = "ali_max"
-print (a)
+ali 0
+ali 1
+ali 3
 """
 print (cyan,test)
-
-all = input("-------->")
+print (g)
+all = input("name fail--------> ")
 gg.close()
-if all == "ali_max":
+er = ("/data/data/com.termux/files/home/max.txt")
+aa("cd && python ",all," > max.txt")
+bb = open(er,"r")
+aaaa = gg.read()
+
+if aaaa == "ali 0"and aaaa == "ali 1":
    
    print (p,"good ",g,"Level +1")
    
