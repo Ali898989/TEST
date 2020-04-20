@@ -13,8 +13,9 @@ max = gg.read()
 from os import system as aa
 import time
 aa("clear")
-test = """
-ali 0
+test = """ali 0
+ali 1
+ali3
 """
 t = 'ali1'
 print (cyan,test)
