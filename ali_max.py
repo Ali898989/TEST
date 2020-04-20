@@ -18,7 +18,7 @@ print (p,"            ali_max",g," ahmed",y,"Level ",max)
 print (" ")
 print (" ")
 print (y,"(",g,"1",y,")",cyan," 1")
-print (y,"(",g,"2",y,")",cyan," 1")
+print (y,"(",g,"2",y,")",cyan," 0")
 ali = input("--------> ")
 if ali == "1":
   aa("cd $HOME/TEST && python 1.py")
