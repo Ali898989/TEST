@@ -15,7 +15,7 @@ import time
 aa("clear")
 test = """ali 0
 ali 1
-ali3
+ali 2
 """
 t = 'ali1'
 print (cyan,test)
