@@ -24,7 +24,7 @@ gg.close()
 er = ("/data/data/com.termux/files/home/max.txt")
 aa("cd && python "+all+" > max.txt")
 bb = open(er,"r")
-aaaa = gg.read()
+aaaa = bb.read()
 
 if aaaa in "ali 0"and aaaa in "ali 1":
    
