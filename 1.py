@@ -43,6 +43,6 @@ else :
 
    new1 = str(new)
    gg2 = open("/data/data/com.termux/files/home/level.txt","w")
-   gg2.write(new2)
+   gg2.write(new1)
    gg2.close()
    aa("TEST")
