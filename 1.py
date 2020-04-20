@@ -13,10 +13,8 @@ max = gg.read()
 from os import system as aa
 aa("clear")
 test = """
-aa = "max"
-print (aa)
-print (aa)
-
+for mm in range(3):
+     print (mm," ali")
 
 
 
@@ -25,9 +23,10 @@ print (cyan,test)
 print (g)
 all = input("-------->")
 all2 = input("-------->")
+all3 = input("-------->")
 
 gg.close()
-if all == "max"and all2 == "max":
+if all == "0 ali"and all2 == "1 ali"and all3 == "2 ali":
    
    print (p,"good ",g,"Level +1")
    
