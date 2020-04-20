@@ -29,7 +29,7 @@ aaaa = bb.read()
 print (aaaa)
 all = input("name fail--------> ")
 
-if aaaa == t:
+if aaaa in t:
    
    print (p,"good ",g,"Level +1")
    
