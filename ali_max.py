@@ -21,8 +21,8 @@ print (y,"(",g,"1",y,")",cyan," ")
 print (y,"(",g,"2",y,")",cyan," bvhvc")
 ali = input("--------> ")
 if ali == "1":
-  aa("cd TEST && python 1.py")
+  aa("cd $HOME/TEST && python 1.py")
 elif ali == "2":
-  aa("cd TEST && python 2.py")
+  aa("cd $HOME/TEST && python 2.py")
 else :
   aa("TEST")
