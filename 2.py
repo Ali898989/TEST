@@ -25,6 +25,8 @@ er = ("/data/data/com.termux/files/home/max.txt")
 aa("cd && python "+all+" > max.txt")
 bb = open(er,"r")
 aaaa = bb.read()
+print (aaaa)
+all = input("name fail--------> ")
 
 if aaaa in "ali 0"and aaaa in "ali 1":
    
