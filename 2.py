@@ -22,11 +22,11 @@ print (g)
 all = input("name fail--------> ")
 gg.close()
 er = ("/data/data/com.termux/files/home/max.txt")
-aa("cd && python ",all," > max.txt")
+aa("cd && python "+all+" > max.txt")
 bb = open(er,"r")
 aaaa = gg.read()
 
-if aaaa == "ali 0"and aaaa == "ali 1":
+if aaaa in "ali 0"and aaaa in "ali 1":
    
    print (p,"good ",g,"Level +1")
    
