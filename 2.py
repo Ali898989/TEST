@@ -28,7 +28,7 @@ aaaa = bb.read()
 print (aaaa)
 all = input("name fail--------> ")
 
-if aaaa in "ali0":
+if aaaa == test:
    
    print (p,"good ",g,"Level +1")
    
