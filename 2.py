@@ -17,7 +17,7 @@ ali 0
 ali 1
 ali 3
 """
-t = "ali1"
+t = 'ali1'
 print (cyan,test)
 print (g)
 all = input("name fail--------> ")
