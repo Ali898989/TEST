@@ -13,8 +13,9 @@ max = gg.read()
 from os import system as aa
 aa("clear")
 test = """
-a = "ali_max"
-print (a)
+a = "1"
+b = "1"
+print (a + b)
 
 
 
@@ -24,7 +25,7 @@ print (cyan,test)
 print (g)
 all = input("-------->")
 gg.close()
-if all == "ali_max":
+if all == "11":
    
    print (p,"good ",g,"Level +1")
    
