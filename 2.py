@@ -20,15 +20,18 @@ ali3
 t = 'ali1'
 print (cyan,test)
 print (g)
+time.sleep(8)
 aa("cd && rm -rif max.py && nano max.py")
-all = input("name fail--------> ")
 gg.close()
 er = ("/data/data/com.termux/files/home/max.txt")
 aa("cd && python max.py > max.txt")
 bb = open(er,"r")
 aaaa = bb.read()
+print (p,"---------")
 print (aaaa)
-all = input("name fail--------> ")
+print (p,"---------",g)
+
+all = input("start ")
 
 if test == aaaa:
    
