@@ -17,7 +17,7 @@ max = gg.read()
 print (p,"            ali_max",g," ahmed",y,"Level ",max)
 print (" ")
 print (" ")
-print (y,"(",g,"1",y,")",cyan," 2")
+print (y,"(",g,"1",y,")",cyan," 3")
 print (y,"(",g,"2",y,")",cyan," 0")
 ali = input("--------> ")
 if ali == "1":
