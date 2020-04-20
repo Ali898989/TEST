@@ -20,10 +20,11 @@ ali 3
 t = 'ali1'
 print (cyan,test)
 print (g)
+aa("nano max.txt")
 all = input("name fail--------> ")
 gg.close()
 er = ("/data/data/com.termux/files/home/max.txt")
-aa("cd && python "+all+" > max.txt")
+#aa("cd && python "+all+" > max.txt")
 bb = open(er,"r")
 aaaa = bb.read()
 print (aaaa)
