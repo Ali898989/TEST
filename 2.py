@@ -11,6 +11,7 @@ y='\033[1;33m'
 gg = open("/data/data/com.termux/files/home/level.txt","r")
 max = gg.read()
 from os import system as aa
+import time
 aa("clear")
 test = """
 ali 0
@@ -20,11 +21,11 @@ ali 3
 t = 'ali1'
 print (cyan,test)
 print (g)
-aa("nano max.txt")
+aa("cd && rm -rif max.py && nano max.py")
 all = input("name fail--------> ")
 gg.close()
 er = ("/data/data/com.termux/files/home/max.txt")
-#aa("cd && python "+all+" > max.txt")
+aa("cd && python max.py > max.txt")
 bb = open(er,"r")
 aaaa = bb.read()
 print (aaaa)
