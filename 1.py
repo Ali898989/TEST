@@ -21,7 +21,7 @@ print (a)
 
 """
 print (cyan,test)
-
+print (g)
 all = input("-------->")
 gg.close()
 if all == "ali_max":
