@@ -24,5 +24,7 @@ if ali == "1":
   aa("cd $HOME/TEST && python 1.py")
 elif ali == "2":
   aa("cd $HOME/TEST && python 2.py")
+elif ali == "3":
+  aa("cd $HOME/TEST && rm level.txt && echo '1' >> level.txt ")
 else :
   aa("TEST")
