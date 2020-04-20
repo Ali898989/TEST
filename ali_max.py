@@ -10,7 +10,7 @@ reset='\033[0m'
 y='\033[1;33m'
 from os import system as aa
 aa("clear")
-gg = open("$HOME/level.txt","r")
+gg = open("/data/data/com.termux/files/home/level.txt","r")
 max = gg.read()
 
 
