@@ -17,6 +17,7 @@ ali 0
 ali 1
 ali 3
 """
+t = "ali1"
 print (cyan,test)
 print (g)
 all = input("name fail--------> ")
@@ -28,7 +29,7 @@ aaaa = bb.read()
 print (aaaa)
 all = input("name fail--------> ")
 
-if aaaa == test:
+if aaaa == t:
    
    print (p,"good ",g,"Level +1")
    
